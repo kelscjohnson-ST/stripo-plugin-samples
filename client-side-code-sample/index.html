@@ -123,8 +123,8 @@
                     getAuthToken: function (callback) {
                         request('POST', 'https://plugins.stripo.email/api/v1/auth',
                             JSON.stringify({
-                                pluginId: 'YOUR_PLUGIN_ID',
-                                secretKey: 'YOUR_SECRET_KEY'
+                                pluginId: '5d8ed8931b6b49dd9bb5e061bb88d199',
+                                secretKey: '5d8ed8931b6b49dd9bb5e061bb88d199'
                             }),
                             function(data) {
                                 callback(JSON.parse(data).token);
